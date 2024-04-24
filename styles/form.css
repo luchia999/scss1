@@ -1,0 +1,29 @@
+.contacts__form {
+  width: 625px;
+  height: 323px;
+  top: 282px;
+  left: 80px;
+  border: 1px;
+}
+
+.form__control {
+  padding: 10px;
+  width: 297px;
+  height: 56px;
+  top: 282px;
+  left: 80px;
+  border: 1px;
+}
+
+.form__control-fotm {
+  width: 623px;
+  height: 147px;
+  top: 362px;
+  left: 80px;
+  border: 1px;
+}
+
+.form__control-border {
+  border: 1px;
+  color: #ffffff;
+}/*# sourceMappingURL=form.css.map */

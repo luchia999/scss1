@@ -1,0 +1,52 @@
+@include font-face ($font-base, 'fonts/OpenSans-Bold', 700);
+@include font-face ($font-base, 'fonts/OpenSans-Regular');
+@include font-face ($font-headline, 'fonts/PlayfairDisplay-Bold', 700);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: $font-base;
+    background-color: $body-bg;
+    color: $body-color;
+}
+
+.contacts{
+    max-width: 1440px;
+    padding: 0 60px;
+    margin: 0 auto;
+    height: 773px;
+    top: -387px;
+    left: -720px;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 0 60px;
+    margin: 0 auto;
+    height: 583px;
+    top: 74px;
+    left: 80px;
+    border: 1px;
+}
+
+.container-Left {
+    width: 658px;
+    height: 531px;
+    top: 74px;
+    left: 80px;
+    border: 1px;
+
+}
+
+.h1 {
+    font-family: $font-headline;
+    color: $color-primary;
+    font-size: 3rem;
+    margin: 0 0 1.38em;
+}
+
+
+

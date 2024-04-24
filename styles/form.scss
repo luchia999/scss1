@@ -1,0 +1,36 @@
+
+
+.form__control{
+    display: flex;
+    
+    padding: 10px;
+    font-family: $font-base;
+    font-size: 1rem;
+    line-height: 1.93;
+    background-color: $font-control-bg;
+    color: $font-control-color;
+    text-align: right;
+
+
+    &::placeholder {
+        color: $font-control-placeholder;
+    }
+
+
+    width: 297px;
+    height: 56px;
+    top: 282px;
+    left: 80px;
+}
+
+.form__control-form {
+    width: 623px;
+    height: 147px;
+    top: 362px;
+    left: 80px;
+}
+
+.form__control-border {
+    border: 1px;
+    color: #585656;
+}
